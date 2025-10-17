@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #f8f9fb;
+  color: #222;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #0077cc;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+.intro h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.receitas {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  color: #555;
+}
+
+.tabs button.active {
+  color: #0077cc;
+  border-color: #0077cc;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  width: 240px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.substitutos {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.substitutos h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.tabela-wrapper {
+  background: #fff;
+  border: 1px solid #dfe6ee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+th {
+  background: #f8fbff;
+  color: #555;
+}
+
+td a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.imc {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.imc h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.imc-form {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #dde5ec;
+  border-radius: 10px;
+  display:
+}
