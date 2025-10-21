@@ -1,100 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nutra - Treinos e Atividades Físicas</title>
-  <link rel="stylesheet" href="treinos.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guia de Treinos - Nutra</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="navbar">
+    <div class="logo">⚡ Nutra</div>
+    <nav class="menu">
+      <a href="#">início</a>
+      <a href="#">Receitas</a>
+      <a class="active" href="#">Treinos</a>
+    </nav>
+    <div class="icons">
+      <span class="icon">🔍</span>
+      <span class="avatar">👤</span>
+    </div>
+  </header>
 
-  <header>
-    <div class="container">
-      <div class="logo">🍃 Nutra</div>
-      <nav class="menu">
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="nutricao.html">Receitas</a></li>
-          <li><a href="treinos.html" class="active">Treinos</a></li>         </ul>
-      </nav>
-      <div class="user">
-        <input type="text" placeholder="🔍" class="search" />
-        <div class="avatar"></div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="intro-treinos">
-      <h1>Seu Guia Completo de Treinamento</h1>
-      <p>Explore diferentes atividades físicas, encontre treinos focados e aprenda sobre a importância da recuperação.</p>
-    </section>
-
-        <section class="tipos-atividade">
-      <h2>Tipos de Atividades Físicas e Benefícios</h2>
-      <div class="cards-atividade">
-        <div class="card-atividade">
-          <h3>Musculação</h3>
-          <p><strong>Benefícios:</strong> Aumento de força e massa muscular, melhora da densidade óssea e aceleração do metabolismo. Ideal para hipertrofia.</p>
-        </div>
-        <div class="card-atividade">
-          <h3>Calistenia</h3>
-          <p><strong>Benefícios:</strong> Desenvolvimento de força funcional, coordenação e controle corporal, utilizando apenas o peso do corpo. Ótima para flexibilidade.</p>
-        </div>
-        <div class="card-atividade">
-          <h3>Caminhada/Corrida</h3>
-          <p><strong>Benefícios:</strong> Melhora da saúde cardiovascular, controle de peso, redução do estresse e aumento da resistência física. Acessível a todos os níveis.</p>
-        </div>
-        <div class="card-atividade">
-          <h3>Yoga/Pilates</h3>
-          <p><strong>Benefícios:</strong> Fortalecimento do "core" (músculos centrais), aumento da flexibilidade, melhora da postura e foco mental. Essencial para o equilíbrio.</p>
-        </div>
-      </div>
-    </section>
-
-        <section class="treinos-focados">
-      <h2>Treinos por Grupo Muscular</h2>
-      <p>Clique em um grupo muscular para ver exercícios e rotinas sugeridas.</p>
-      <div class="grupos-musculares">
-        <a href="#treino-peito" class="grupo-btn">Peito (Tórax)</a>
-        <a href="#treino-costas" class="grupo-btn">Costas</a>
-        <a href="#treino-pernas" class="grupo-btn">Pernas e Glúteos</a>
-        <a href="#treino-bracos" class="grupo-btn">Braços (Bíceps e Tríceps)</a>
-        <a href="#treino-ombros" class="grupo-btn">Ombros e Trapézio</a>
-        <a href="#treino-abdomen" class="grupo-btn">Abdômen (Core)</a>
-      </div>
-
-            <div id="treino-peito" class="conteudo-focado">
-        <h3>Rotina de Peito Sugerida</h3>
-        <ul>
-          <li>Supino Reto (Barra ou Halteres): 4 séries de 8-12 repetições.</li>
-          <li>Supino Inclinado (Halteres): 3 séries de 10-15 repetições.</li>
-          <li>Crucifixo Máquina/Cabo: 3 séries de 12-15 repetições.</li>
-        </ul>
-      </div>
-    </section>
-
-        <section class="recuperacao">
-      <h2>A Importância da Recuperação Ativa</h2>
-      <div class="info-recuperacao">
-        <p>O crescimento muscular e a melhoria da performance ocorrem durante o descanso, não apenas durante o treino. Priorizar o sono de 7 a 9 horas e a hidratação é fundamental.</p>
-        <ul>
-          <li><strong>Sono de Qualidade:</strong> Onde a maior parte da reparação muscular acontece.</li>
-          <li><strong>Dias de Descanso:</strong> Permitem que os músculos se regenerem e evitam o overtraining.</li>
-          <li><strong>Alimentação Pós-Treino:</strong> Reposição de nutrientes para otimizar a recuperação.</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  
-  <footer>
-    <div class="footer-links">
-      <a href="#">Política de Privacidade</a>
-      <a href="#">Termos de Serviço</a>
-      <a href="#">Contato</a>
-      <a href="#">Voltar ao Topo</a>
-    </div>
-    <p>&copy; 2025 Nutra. Todos os direitos reservados.</p>
-  </footer>
+  <main class="content">
+    <h1>Guia de Treinos</h1>
+    <p class="subtitle">Explore os melhores exercícios para cada grupo muscular.</p>
+    <section>
+      <h2>Peito</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="04531db7-c0bf-4a9a-a05a-3eaca38b68ae.jpg" alt="Supino">
+          <h3>Supino</h3>
+          <p>3 séries de 8-12 repetições</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="4651134d-19fb-43e1-ab12-9395b3da333a.jpg" alt="Supino Inclinado">
+          <div>
+            <h3>Supino inclinado c/ Halteres</h3>
+            <p>3 séries de 10-15 repetições</p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="imagem" src="baixados.jpg" alt="Flexões">
+          <h3>Flexões</h3>
+          <p>3 séries até a falha</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Costas</h2>
+      <div class="cards">
+        <div class="card">
+          <img class="imagem" src="O exercício Chin-Up, conhecido em português como….jpg" alt="Barra Fixa">
+          <h3>Barra Fixa</h3>
+          <p>3 séries até a falha</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="40fef4fd-1363-4ebd-9c79-8d4fe018e187.jpg" alt="Remada Curvada">
+          <h3>Remada Curvada c/ Barra</h3>
+          <p>3 séries de 8-12 repetições</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="O Pulldown, também conhecido como puxada alta ou….jpg" alt="Puxada Alta">
+          <h3>Puxada Alta</h3>
+          <p>3 séries de 10-15 repetições</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Pernas</h2>
+      <div class="cards">
+        <div class="card">
+          <img class="imagem" src="Treino Sarah mamoele -segunda ( quadríceps)….jpg" alt="Agachamento Livre">
+          <h3>Agachamento Livre</h3>
+          <p>3 séries de 8-12 repetições</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="0be8ec07-60b2-46a1-9288-a5718056f288.jpg" alt="Avanço">
+          <h3>Avanço</h3>
+          <p>3 séries de 10-15 por perna</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="e88db795-4e33-49c2-9d9b-dfbbf110f099.jpg" alt="Leg Press">
+          <h3>Leg Press</h3>
+          <p>3 séries de 10-15 repetições</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Braços</h2>
+      <div class="cards">
+        <div class="card">
+          <img class="imagem" src="SUPERIORES TERÇA FEIRA COSTAS 1º REMADA SENTADA….jpg" alt="Rosca Direta">
+          <h3>Rosca Direta</h3>
+          <p>3 séries de 10-12 repetições</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="d78b4c19-713f-4e6d-90ff-a087912075d5.jpg" alt="Tríceps Banco">
+          <h3>Tríceps Banco</h3>
+          <p>3 séries até a falha</p>
+        </div>
+        <div class="card">
+          <img class="imagem" src="WhatsApp Image 2025-10-16 at 23.26.35.jpeg" alt="Desenvolvimento Militar">
+          <h3>Desenvolvimento Militar</h3>
+          <p>3 séries de 10-12 repetições</p>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
-</html>
