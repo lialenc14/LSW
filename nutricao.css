@@ -11,8 +11,12 @@ body {
 }
 
 .active {
-  background-color: #333;
+  background-color: #ffffff;
   color: #fff
+}
+ul {
+  list-style-type: none;
+  display: flex;
 }
 
 .container {
@@ -190,5 +194,4 @@ td a {
   padding: 20px;
   border: 1px solid #dde5ec;
   border-radius: 10px;
-  display:
 }
