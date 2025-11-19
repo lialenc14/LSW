@@ -23,3 +23,4 @@ function cadastrarUsuario() {
 
   alert("Cadastro realizado com sucesso!");
 }
+document.getElementById("btnCadastrar").addEventListener("click", cadastrarUsuario);
