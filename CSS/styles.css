@@ -44,21 +44,19 @@ header {
   gap: 20px;
 }
 
-.menu > li {
-  padding: 5px 10px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
-  transition: 0.3s ease;
-}
-
-.menu > li:hover {
-  background-color: #efefef;
-}
-
 .menu a {
   text-decoration: none;
   color: #333;
   font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  background-color: #f4f4f4;
 }
 
 .auth-buttons {
@@ -192,7 +190,7 @@ footer p {
   .menu {
     list-style: none;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     transition: 0.4s ease;
   }
 
@@ -204,11 +202,14 @@ footer p {
     flex-wrap: wrap;
   }
 
-  .menu > li {
-    padding: 2px 5px;
+  .menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
     transition: 0.3s ease;
-    transition: 0.4s ease;
+    cursor: pointer;
   }
 }
