@@ -11,15 +11,15 @@ body {
   color: #222;
 }
 
+main {
+  overflow: hidden;
+}
+
 header {
   background: #ffffff;
   border-bottom: 1px solid #e0e0e0;
-  padding: 20px 0;
-}
-
-.active {
-  background-color: #ffffff;
-  color: #fff
+  padding: 25px 0;
+  overflow: hidden;
 }
 
 .container {
@@ -35,12 +35,24 @@ header {
   font-size: 20px;
   font-weight: bold;
   color: #0077cc;
+  padding: 10px;
 }
 
 .menu {
   list-style: none;
   display: flex;
   gap: 20px;
+}
+
+.menu > li {
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease;
+}
+
+.menu > li:hover {
+  background-color: #efefef;
 }
 
 .menu a {
@@ -91,6 +103,7 @@ header {
 .intro h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
+  padding: 0px 10px;
 }
 
 .intro p {
@@ -113,6 +126,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: space-evenly;
+  margin: 10px;
 }
 
 .card {
@@ -123,6 +138,12 @@ header {
   max-width: 300px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(102%);
 }
 
 .card img {
@@ -164,4 +185,30 @@ footer {
 footer p {
   font-size: 0.9rem;
   color: #888;
+}
+
+/*Quando a tela ficar com 600px ou menos ele vai diminuir no menu e no nav bar o tamanho */
+@media screen and (max-width: 600px) {
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    transition: 0.4s ease;
+  }
+
+  nav {
+    margin: auto;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .menu > li {
+    padding: 2px 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+    transition: 0.4s ease;
+  }
 }
