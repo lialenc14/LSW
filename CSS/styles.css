@@ -32,7 +32,7 @@ header {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #0077cc;
   padding: 10px;
@@ -48,15 +48,16 @@ header {
   text-decoration: none;
   color: #333;
   font-weight: 500;
-  padding: 5px 10px;
+  padding: 7px 12px;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.07);
   transition: 0.3s ease;
   cursor: pointer;
+  background-color: #d9d9d974;
 }
 
 .menu a:hover {
-  background-color: #f4f4f4;
+  background-color: #f9f8f8;
 }
 
 .auth-buttons {
@@ -186,7 +187,7 @@ footer p {
 }
 
 /*Quando a tela ficar com 600px ou menos ele vai diminuir no menu e no nav bar o tamanho */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 610px) {
   .menu {
     list-style: none;
     display: flex;
@@ -195,6 +196,10 @@ footer p {
   }
 
   nav {
+    margin: auto;
+  }
+
+  .logo {
     margin: auto;
   }
 
